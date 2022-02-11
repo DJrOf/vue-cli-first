@@ -1,18 +1,18 @@
 <template>
-  <div id="app">
-    <header>
-      <h1>La mia prima app con Vue CLI!<h1>
-    </header>
-  </div>
+<div>
+   <Header/>
+</div>
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header
   }
 }
 </script>
